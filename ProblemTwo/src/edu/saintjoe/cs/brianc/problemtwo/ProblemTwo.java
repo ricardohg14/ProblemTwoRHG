@@ -3,8 +3,10 @@ package edu.saintjoe.cs.brianc.problemtwo;
 public class ProblemTwo {
 	int first;
 	int second;
+	int third;
 	String one = "Here we go!!";
 	String two;
+	String three;
 	
 	public int getFirst() {
 		return first;
@@ -16,6 +18,17 @@ public class ProblemTwo {
 	
 	public String gettwo() {
 		return two;
+	}
+	
+	public void setsecond(int newValue) {
+		second = newValue;
+	}
+	public String getthird() {
+		return three;
+	}
+	
+	public void setthird(int newValue) {
+		third = newValue;
 	}
 
 	public static void main(String[] args) {
